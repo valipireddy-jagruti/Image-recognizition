@@ -18,6 +18,7 @@ Language: Python 3.x
 Data Handling: numpy and Keras' image utility.
 
 How It Works:
+
 Upload: A user uploads an image through the web interface (using index.html, which would be needed alongside this script).
 Save: The Flask application saves the uploaded image temporarily to an uploads folder.
 Preprocess: The image is loaded, resized to the required $224 \times 224$ pixels, converted to a NumPy array, and pre-processed to VGG16's standard.
